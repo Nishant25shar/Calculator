@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
     double num1, num2;
-    char op;
+    char operator;
 
-    // User input
+    
     cout << "Enter first number: ";
     cin >> num1;
 
@@ -17,7 +17,7 @@ int main() {
     cin >> num2;
 
     // Perform operation based on the operator
-    switch(op) {
+    switch(operator) {
         case '+':
             cout << "Result: " << num1 + num2 << endl;
             break;
