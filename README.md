@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
     double num1, num2;
-    char operator;
+    char oper;
 
     
     cout << "Enter first number: ";
@@ -21,7 +21,7 @@ int main() {
     cin >> num2;
 
     // Perform operation based on the operator
-    switch(operator) {
+    switch(oper) {
         case '+':
             cout << "Result: " << num1 + num2 << endl;
             break;
